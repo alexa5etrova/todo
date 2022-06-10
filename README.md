@@ -2,4 +2,4 @@
 
 Приложение сделано и использованием хуков React: useState, useEffect, useRef
 
-(https://alexa5etrova.github.io/todo/)[Deploy]
+("https://alexa5etrova.github.io/todo/")["Deploy"]
