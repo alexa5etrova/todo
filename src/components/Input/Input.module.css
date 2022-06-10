@@ -1,0 +1,14 @@
+.form {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+.input {
+  border-radius: 5px;
+  padding: 7px;
+  margin-right: 5px;
+  height: 28px;
+}
+.error {
+  color: red;
+}

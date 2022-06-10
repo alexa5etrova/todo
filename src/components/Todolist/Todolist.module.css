@@ -1,0 +1,10 @@
+.todolistContainer {
+}
+.todolist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
