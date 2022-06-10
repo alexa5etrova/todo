@@ -4,7 +4,6 @@ import styles from "./TodoItem.module.css";
 
 const TodoItem = (props) => {
   const taskRef = useRef();
-  let stylesLi = styles.todoItem;
 
   const [isMouseOver, setIsMouseOver] = useState(false);
 
@@ -24,7 +23,7 @@ const TodoItem = (props) => {
     props.deleteTask(props.id);
   };
   return (
-    <li className={stylesLi} ref={taskRef}>
+    <li className={styles.todoItem} ref={taskRef}>
       {isMouseOver ? "Done?" : props.children}
 
       <div>
